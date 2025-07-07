@@ -140,6 +140,8 @@ h1 {
 
 ul {
   /*border: 5px solid green;*/
+  background-color: black;
+  color: white;
   padding: 3%;
   width: 600px;
   height: 401px;
