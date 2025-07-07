@@ -1,0 +1,20 @@
+/*use ../reset.css file path*/
+
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 16px;
+	color: #000;
+}
+
+body {
+	min-height: 100vh; /*Starts page with 100% height. Uses viewport height.*/
+    width: 100%;
+	/*overflow-x: hidden;*/
+	/*border:2px dotted red;*/
+}
