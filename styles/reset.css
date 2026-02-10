@@ -15,6 +15,6 @@ html {
 body {
 	min-height: 100vh; /*Starts page with 100% height. Uses viewport height.*/
     width: 100%;
-	/*overflow-x: hidden;*/
+	overflow-x: hidden;
 	/*border:2px dotted red;*/
 }
