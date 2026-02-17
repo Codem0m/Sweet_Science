@@ -3,10 +3,12 @@
   src: url(../RoadRage-Regular.woff2) format('woff2');
 }
 
-
+/** {
+	border: 2px solid red;
+}*/
 body {
 	/*border:0;*/
-	background-color: C0C0C0#;	
+	background-color: #A9A9A9;	
 }
 
 div {
@@ -21,11 +23,28 @@ p {
 a {
 	color: white;
 }
+a:hover {
+	background-color: white;
+	color: black;
+}
+
+/*navigation bar*/
+nav {
+	border: 2px solid black;
+	background-color: #000000;	
+	/*set to sticky*/
+	top: 0;
+	position: sticky;
+	width: 100%;
+	z-index: 10;
+	
+}
+
 
 /*hero image and text*/
 header.home {	
     /*border:4px solid green;*/
-	background-image: url('../images/boxing-gloves-1.jpg');
+	background-image: url('../images/boxing-gloves-2.png');
 	margin: 0 ;
 	padding:0;
 	height: 100vh;
@@ -36,15 +55,6 @@ header.home {
 	z-index: 1;
 }
 
-/*navigation bar*/
-nav {
-	border: 2px solid black;
-	background-color: #000000;	
-	position: fixed;
-	width: 100vw;
-	z-index: 1;
-	
-}
 
 .menu {
 	margin: 0;
@@ -65,15 +75,13 @@ nav {
 	padding: 12px;
 	
 }
-/*.item a{
-	color:white;
-}*/
+
 
 .caption {
 	/*border:7px solid black;*/
 	/*border-radius:20px;*/
-	background-color:#a0737369;
-	
+	/*background-color:#a0737369;*/
+	color:#000000;
 	text-align:center;
 	
 	margin: auto;	
@@ -87,9 +95,7 @@ nav {
 
 h1 {
 	font-family:RoadRage-Regular, Georgia, sans-serif;
-	color:#C0C0C0;
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: black;
+	
 	font-size: 8em;
     line-height: 1;
     visibility: visible;
@@ -102,11 +108,9 @@ h1 {
 
 .undertitle {
 	font-family: RoadRage-Regular, sans-serif;
-	color:#C0C0C0;
-	/*-webkit-text-stroke-width: .25px;
-	-webkit-text-stroke-color: black;*/
 	font-size: 4em;
-	
+	word-spacing: 0.65px;
+    letter-spacing: 0.7px;
 	align-self: center;
 }
 	
@@ -187,6 +191,10 @@ li {
 	line-height: 150%;
 }
 
+.description a {
+	color: black;
+}
+
 footer {
 	border:2px solid black;
 	background: black;
@@ -199,7 +207,7 @@ footer {
 }
 
 footer p {
-	border: 2px solid white;
+	/*border: 2px solid white;*/
 	color: white;
 	/*width: 200px;
 	height: 100px;*/
@@ -242,12 +250,27 @@ footer a {
 	}
 }
 
-/*@media only screen and (min-width: 601px) and (max-width: 768px) {
+@media only screen and (min-width: 601px) and (max-width: 965px) {
 	header.home {
-		width: 111%;
-        height: 75vh;
+		width: 100%;
+        height: 80vh;
 	}
-}
+	/*.menu {
+		flex-flow: column wrap;
+	}*/
+	h1 {
+		font-size: 6em;
+		word-spacing: -4.9px;
+        letter-spacing: -0.5px;
+	}
+	.undertitle {
+		font-size:3em;
+	}
+	.item {
+		flex:1;
+	}
+	}
+
 	
 /*@media only screen and (min-width: 768px) {
    	header.home {
