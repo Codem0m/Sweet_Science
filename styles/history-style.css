@@ -64,10 +64,29 @@ h1 {
     letter-spacing: 0.4px;
 	text-transform: uppercase;
     padding-top: 75px;
+	padding-bottom: 3%;
 	
 }
 
-.main-image {
+h2 {
+	padding-bottom: 5%;
+}
+
+.background, .effects, .mission{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-content: safe center;
+}
+
+article {
+	text-align: left;
+	width: 50%;
+	font-size: 1.25rem;
+}
+img {
     border:3px solid black;
+	margin-bottom: 5%;
+	
 
 }
