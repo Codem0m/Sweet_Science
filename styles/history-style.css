@@ -81,6 +81,7 @@ h2 {
 
 article {
 	text-align: left;
+	align-self: center;
 	width: 50%;
 	font-size: 1.25rem;
 }
