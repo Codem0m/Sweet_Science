@@ -9,10 +9,10 @@ body {
     text-align: center;
 }
 
-/*p {
-	/*border:1px solid orange;
-	text-align: center;
-}*/
+p {
+	word-spacing: .30rem;
+	line-height: 2rem;
+}
 
 a {
 	color: white;
@@ -84,6 +84,7 @@ article {
 	align-self: center;
 	width: 50%;
 	font-size: 1.25rem;
+	padding-bottom: 10%;
 }
 img {
     border:3px solid black;
