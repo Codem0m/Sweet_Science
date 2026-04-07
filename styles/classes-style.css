@@ -10,13 +10,8 @@ body {
 }
 
 p {
-	word-spacing: .30rem;
+	
 	line-height: 2rem;
-}
-
-.item {
-	font-size: 1rem;
-	word-spacing: normal;
 }
 
 a {
@@ -73,31 +68,30 @@ h1 {
 	
 }
 
-h2 {
-	padding-bottom: 5%;
-}
-
-.background, .effects, .mission{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
+.parent {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 	align-content: safe center;
+    gap: 40px 30px;
 }
 
-article {
-	text-align: left;
-	align-self: center;
-	width: 50%;
-	font-size: 1.25rem;
-	padding-bottom: 10%;
-}
-img {
-    border:3px solid black;
-    margin-bottom: 5%;
+.classes, .monthly {
+    background-color: #a9a9a8;
+    padding: 3%;
 }
 
-.main-image{
-	width: auto;
-	height: auto;
-	aspect-ratio: 3 / 5;
+h2 {
+    border-bottom: 3px solid black;
+    font-size: 1.77em;
+}
+
+.first-line {
+    padding-top: 5%;
+    padding-bottom: 7%;
+    
+ }
+
+h3 {
+    padding-top: 10%;
 }
