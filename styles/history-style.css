@@ -22,6 +22,10 @@ p {
 a {
 	color: white;
 }
+a:hover {
+	background-color: white;
+	color: black;
+}
 
 /*navigation bar*/
 nav {
@@ -101,3 +105,29 @@ img {
 	height: auto;
 	aspect-ratio: 3 / 5;
 }
+
+/*Begin Footer Styling*/
+footer {
+	border:2px solid black;
+	background: black;
+	margin-top: 2%;
+	padding: 25px;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: space-around;	
+}
+
+footer p {
+	/*border: 2px solid white;*/
+	color: white;
+	/*width: 200px;
+	height: 100px;*/
+	padding: 10px;
+}
+
+footer a {
+	border: 2px solid white;
+	padding: 10px;
+}
+/*End Footer Styling*/

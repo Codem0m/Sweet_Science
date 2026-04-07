@@ -195,6 +195,7 @@ li {
 	color: black;
 }
 
+/*Begin Footer Styling*/
 footer {
 	border:2px solid black;
 	background: black;
@@ -218,7 +219,7 @@ footer a {
 	border: 2px solid white;
 	padding: 10px;
 }
-
+/*End Footer Styling*/
 
 @media only screen and (max-width: 600px) {
 	
