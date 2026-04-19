@@ -200,7 +200,7 @@ footer {
 	border:2px solid black;
 	background: black;
 	margin-top: 2%;
-	padding: 25px;
+	padding: 1.75%;
 	display: flex;
 	flex-flow: row;
 	flex-wrap: wrap;
@@ -212,12 +212,12 @@ footer p {
 	color: white;
 	/*width: 200px;
 	height: 100px;*/
-	padding: 10px;
+	padding: 1%;
 }
 
 footer a {
 	border: 2px solid white;
-	padding: 10px;
+	padding: 1%;
 }
 /*End Footer Styling*/
 
